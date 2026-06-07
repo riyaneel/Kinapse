@@ -1,69 +1,89 @@
-# Prerequisites
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 *.so.*
-
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
-
-# Build directories
 build/
 Build/
 build-*/
-
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
-
-# Temporary files
 *.tmp
 *.log
 *.bak
 *.swp
-
-# vcpkg
 vcpkg_installed/
-
-# debug information files
 *.dwo
-
-# test output & cache
 Testing/
 .cache/
+.idea/
+.vscode/
+.vs/
+.env*
+!.env.example
+secrets/
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+dist
+tmp
+out-tsc
+bazel-out
+node_modules
+npm-debug.log
+yarn-error.log
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/*
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
+__screenshots__/
+.DS_Store
+Thumbs.db
+snn_train/data/
+Pipfile.lock
+data/
