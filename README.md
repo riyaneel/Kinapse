@@ -1,5 +1,7 @@
 # Kinapse (MTR-RSNN)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20612742.svg)](https://doi.org/10.5281/zenodo.20612742)
+
 Source code for **MTR-RSNN: Multi-Timescale Recurrent SNNs with Kinetic NMDA Gating and Online Learning.**
 
 ---
